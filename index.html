@@ -1,0 +1,105 @@
+<!-- "! + tab" pré-rempli un document HTML-->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aurélien Amorin</title>
+    <link rel="stylesheet" href="Style.css">
+
+</head>
+
+<body>
+    <div class="cover">
+        <img class="cover-profile" src="profilme.jpg" />
+        <h1>Aurélien Amorin</h1>
+        <p>Développeur </p>
+        
+        <div style="text-align: center;">
+            <a class="contact-button" href="mailto:aurelien.amorin@gmailcom?subject=Contact%20depuis%20aurelienamorin.com"><b>ME CONTACTER</b></a>
+        </div>
+        
+
+        <div class="cover-contact">
+            <p><a href="mailto:aurelien.amorin@gmailcom?subject=Contact%20depuis%20aurelienamorin.com">aurelien.amorin@gmail.com</a></p>
+            <!-- "mailto permet de créer un lien qu'on puisse adresser un mail à l'adresse indiquée et "subject" séparé par un "?" pour ajouter un sujet-->
+            
+            <p><a href="tel:=+33781664943">07 81 66 49 43</a></p>
+        </div>
+    </div>
+
+    
+    <!-- SECTION GRISE 1 (entrer les données exemple : div.section-grise1 puis tabuler)-->
+    <div class="section section-grise1">
+        <div class="separateur">
+        
+        </div>
+            <p>Je développe <b>votre Projet WEB</b> ou vos<b> Applications mobiles</b> IOS/Android de A à Z</p>
+        </div>
+
+
+
+    <!-- SECTION BLANCHE 1 (entrer les données exemple : div.section-grise1 puis tabuler)-->
+    <div class="section">
+        <h2>En savoir plus</h2>
+        <img src="profile2.jpg" class="col-contenu">
+
+        <div class="col-contenu float-right" style="box-sizing:border-box">
+            
+            <!-- "padding-left: 10px; box-sizing:border-box" Pour gérer du padding à l'intérieur d'une largeur maximale-->
+            <!-- pour ajouter 2 style dans la même div, il suffit de les englober entre les mêmes guillemets -->
+            
+            <div class="texte-avec-ligne-verticale">
+
+                <p>Passionné par l'informatique depuis toujours, je suis fasciné par la façon dont la technologie peut transformer nos idées en réalité. Cette passion m'a conduit à me plonger dans le développement de projets WEB et de programmes informatiques. <br><br>
+                Aujourd'hui, je suis en mesure de créer des solutions innovantes et de donner vie à des concepts, en combinant créativité et expertise technique. Chaque projet que je développe est une nouvelle opportunité de repousser les limites de ce qui est possible, tout en apprenant et en grandissant dans cet univers en constante évolution.
+                </p>
+                <a href="https:/www.linkedin.com/in/aurelien-amorin-078628228/" target="_blank">En savoir plus sur mon profil</a>
+            </div>
+        </div>
+        <!-- target = blank pour ouvrir dans une nouvelle fenêtre-->
+    </div>
+
+
+
+
+    <!-- SECTION GRISE 2-->
+    <div class="section section-grise2">
+        <h2>Portfolio</h2>
+        <table class="col-portfolio" style="display: inline-block;">
+            <tr>
+                <td><div class="barre-verticale"></div></td>
+                <td style="width: 100%;"><a href="portfolion-site-restaurant.html"><img style="width: 100%;" src="project1small.jpg"></a></td>
+            </tr>
+            <!-- Pour centrer une barre sur une image : Création d'une table (exemple ci-dessus)-->
+            <tr>
+                <td></td>
+                <td style="text-align: center;"><a href="portfolion-site-restaurant.html"> Site web pour un restaurant</a></td>
+            </tr>
+        </table>
+
+        <!-- 2ème image-->
+        <table class="col-portfolio float-right">
+            <tr>
+                <td><div class="barre-verticale"></div></td>
+                <td style="width: 100%;"><img style="width: 100%" src="project2small.jpg"></td>
+            </tr>
+            <!-- Pour centrer une barre sur une image : Création d'une table (exemple ci-dessus)-->
+            <tr>
+                <td></td>
+                <td style="text-align: center;"><a href="#"> Application mobile</a></td>
+            </tr>
+        </table>
+
+        
+    </div>
+
+
+
+    <!-- SECTION BLANCHE 2-->
+    <iframe src="contact-frame.html" scrolling="no"/>
+
+</body>
+</html>
+
+
